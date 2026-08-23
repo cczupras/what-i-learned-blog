@@ -1,0 +1,49 @@
+---
+layout: default
+title: "2025w26 - Six Month"
+---
+
+# #1 Personal ✒️ {color="green_bg"}
+## Personal Note
+### **Six Months In: My Brain's Bigger, My Muscles Sore, and AI Is My Best Mate**
+---
+This week will be different - no sections just this one. I thought after half a year I just wanted to focus on a review of this blog. It has been a great adventure so far
+What started as a whimsical holiday thought – probably spurred by too much Instagram scrolling that felt like a "waste of time" – has blossomed into... well, this! And let me tell you, it's been quite the ride. My head isn’t *just* occupied with daily life and work topics anymore; it’s now a bustling marketplace of blog ideas, half-formed sentences, and the occasional fleeting thought about Swedish grammar. So really good to have the audio recording on my phone always a click away - and I can tell you my Google drive is getting crowded with audio recordings.
+So, what invaluable lessons have I gleaned from these past six months of chronicling my existence? Prepare yourselves, for I am about to give you a summary of epic (and slightly self-deprecating) proportions!
+### The "Personal Growth" Section (Because Apparently, I’m Not Just Scrolling Through Memes All Day)
+First and foremost, this blog itself has become a **habit-forming marvel**. It turns out, forcing myself to write every week is "quite satisfying" and even helps "focus my thoughts". Who knew? I’ve gone from scribbling notes on random blocks to diligently feeding my "second brain" in Notion, which, let’s be honest, is probably more organised than my actual brain at this point. It’s a knowledge management system, I've learned, and it's **valuable for my own growth and future learning**.
+Perhaps the most surprising personal triumph? My **Duolingo streak**! What started as a way to avoid endless Instagram feeds has now hit **170+ continuous days of learning Swedish** (and occasionally French or Math when my brain needs a softer landing). Apparently, I’m on track to know around 1500 Swedish words by year-end. I still don't speak binary, but at least I can probably order a *fika* with some confidence! This relentless pursuit of new languages has even made my mind feel "a little bit more flexible" – like exercising.
+And speaking of flexing, remember how I said I wanted to be more active in social media? Well, I’ve swapped endless scrolling for more meaningful pursuits, like **fostering personal relationships** and **nurturing friendships face-to-face**. Turns out, human connection still beats staring at a screen, even if AI can offer "brilliant questions" for presentations or help me with troubleshooting.
+My overall takeaway? **"Take your breaks, thoughtfully"**, embrace a **growth mindset**, and don't be afraid to **"connect the dots"** across different areas of your life – it makes things richer and more enjoyable. Also, solving a Rubik's Cube is surprisingly meditative and I'm slowly mastering the CFOP method (which sounds way cooler than "beginner's method," obviously).
+### The "Tech Nerd" Corner (Where I Pretend to Be Smarter Than I Am)
+Ah, technology! The lifeblood of this blog (literally, it’s built on Notion!). I’ve learned that **Notion is a "no-brainer" for blogging** and that I can even resurrect an old iPad Air for daily apps like Spotify, ~~YouTube~~(unfortunately not anymore), Chrome and most of the time I use it today as a e-book or pdf reader. Though, sadly, Notion doesn’t run on it, proving that some tech simply refuses to comply with my sustainability agenda.
+But the real MVP? **AI, my new virtual companion**. I've tried them all: ChatGPT, Copilot, Gemini, Claude, Le Chat. I’ve learned they each have their quirks – Claude is "a bit more human like," while ChatGPT gives "hard facts". I’ve even taught them to extract ingredients from recipe cards and help me build Excel sheets, proving that AI can finally make logging work hours less painful. **"It feels easy and simple to talk to my phone, get answers and inspiration"**.
+My deep dive into AI's inner workings revealed that LLMs use "tokens" and operate with something called "Transformer Architecture" and "attention". And guess what? They don't actually "memorize" conversations in the human sense; they use clever tricks like "system prompts" and "context windows". It's all about **"setting the right context"** and **"getting the AI to ask *you* questions"** – truly mind-bending stuff for someone who used to just yell at their computer when it didn't understand.
+I’ve discovered that **AI agents are the future** (and quite possibly already taking over the boring parts of my job). They can summarize changelogs, help refactor code, and even act as a "magic_function" for error handling. I’ve even been playing with **local LLMs like Ollama for privacy reasons** because, you know, some of my thoughts are just for me and my local server.
+Other tech triumphs include:
+- **API Mocking** for painless testing without relying on pesky real APIs.
+- **Namespaces in AL** (the Business Central programming language) for cleaner, more readable code. Who isn't a fan of "neat and clean" code?
+- **Google NotebookLM** – my number one research buddy. It’s like a personal podcast generator for my sources and helps me discover new information on the fly. It’s so good, I’ve used it to write parts of this summary!
+- **Page Scripting** in Business Central for automating UI interactions and testing. It's a "powerful tool everybody should use".
+- The surprising power of **Markdown for AI interactions** – apparently, AI prefers its text simple and structured, just like me after a long week.
+- And finally, a newfound curiosity for **Python** for its visualization powers. Because if I’m going to learn something new, it better look pretty!
+### The "Sports, Food & Health" Report (Where I Confirm I’m Not as Fit as I Think)
+This section often leaves me scratching my head for new insights, but here we go! I’ve learned that running at -19°C is "no joke" but also that my body has an internal heating system. My CrossFit Open performances have served as **"reality checks"**, confirming that I'm not always as fit as I imagine. But hey, it also **"fired me up to start more training again"**. It’s a cycle, people!
+I've rediscovered the joy of **Hybrid Training** – a fancy term for what I was "doing all along", combining strength and endurance. I now have a weekly training plan (mostly aspirational, but still a plan!). And yes, **setting goals and milestones** is definitely a **"powerful source of motivation"**.
+In the kitchen, I’ve embraced the **air fryer for crispy rice balls** (game-changer!), learned that **sweet potatoes are "versatile and tastes great"** in muffins or otherwise, and that **prepping ingredients** on Sundays is a life hack. I've also dabbled in frozen organic meals for quick, healthy dinners, proving that convenience doesn't always mean sacrificing nutrition.
+Perhaps the most profound learning: **"There is a well-established correlation between regular fitness training, improved memory performance, and enhanced mental strength"**. So, all those burpees and bike rides aren't just for looking good in tight shorts (though that's a nice side effect); they're making me smarter and more resilient! My Garmin might show my HRV dropping after a conference, but I'm learning to listen to my body *and* my data. And apparently, gravel can be a workout too. Who knew?
+### The "Inside AI" Section (Where I Try to Sound Smart About Something I'm Still Figuring Out)
+This is the new kid on the block, and it's already a whirlwind! I've been diving deep into what makes AI tick, from the tiny "tokens" to the mighty "Transformer Architecture". I've learned that **AI doesn't "speak binary" by default**, but that **"asking for help"** from the AI itself to craft better prompts is a **"life hack"**. It's like teaching a toddler to ask for what they want, but with less screaming.
+The biggest revelation? Treat AI not just as a tool, but as a **"team mate" or "companion"**. This approach, learned from a Stanford professor no less, means setting the right context and even getting the AI to "ask *you* questions". It makes so much sense – if I want my virtual assistant to write the next great novel, I can't just grunt at it. **"Precise instructions"** are key, whether to an AI or a colleague!
+I'm now exploring how AI agents work, how to document things with AI, and even the nuances of "Retrieval-Augmented Generation (RAG)" – which sounds like a fancy way of saying "don't let the AI make stuff up." This whole journey has reinforced that learning should be **"playful"** and that consuming information from **"a broad base of publishers and various sources"** is crucial to avoid bias.
+### The Grand Finale (Because Every Blog Post Needs One)
+So, after nearly six months, what's the summary of the summary? I’ve learned to **embrace new habits** (Swedish!), **leverage technology** (AI, my beloved), **prioritize my well-being** (sweat, eat, sleep, repeat), and **connect with others** (both human and digital). It’s messy, it’s fun, and it’s a constant learning curve.
+The biggest lesson? As The Mandalorian famously said, **"I don’t speak binary. I’m counting on you."**. But now, I’m learning to talk *to* the binary, and it’s opening up a whole new world.
+Thanks for sticking with me on this journey. Keep reading, keep learning, and **don't forget to leave some feedback** – because apparently, I love it!
+# Feedback 📣 {color="purple_bg"}
+Here you can give me feedback, send ideas or just connect with me. Just leave a comment.
+<embed src="https://tally.so/embed/waKjo9?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1&week_hidden=2025w26"></embed>
+---
+<database url="https://app.notion.com/p/221b04fbcf9580d383edd49c08f49f32" inline="true"></database>
+---
+©️ Christian Czupras - 2025

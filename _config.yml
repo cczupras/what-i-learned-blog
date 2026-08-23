@@ -1,0 +1,8 @@
+title: What I learned this week
+description: A blog about what I learned this week.
+theme: minima
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
