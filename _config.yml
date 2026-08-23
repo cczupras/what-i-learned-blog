@@ -1,7 +1,7 @@
 title: What I learned this week
-description: A blog about what I learned this week.
-theme: minima
+description: A blog about what I learned this week by Christian Czupras.
 markdown: kramdown
+destination: docs
 
 kramdown:
   input: GFM
