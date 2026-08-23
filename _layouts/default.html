@@ -2,24 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title | default: site.title }}</title>
+  <title>{{ page.title | default: site.title }} - What I Learned · Christian Czupras</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 2rem; color: #333; }
-    h1, h2, h3 { color: #111; }
-    a { color: #0366d6; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    img { max-width: 100%; height: auto; }
-    pre, code { background: #f6f8fa; border-radius: 3px; }
-    pre { padding: 16px; overflow: auto; }
-  </style>
+  <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-  </header>
-  <main>
-    {{ content }}
-  </main>
+
+  <!-- Left Corner: Back to czupras.de -->
+  <div id="nav-left" class="glass-corner">
+    <a href="https://czupras.de/" class="nav-brand" title="Back to Homepage">
+      <img src="{{ '/assets/avatar.png' | relative_url }}" alt="Christian Czupras">
+      <span>czupras.de</span>
+    </a>
+    <a href="{{ '/' | relative_url }}" class="nav-tag">Blog Home</a>
+  </div>
+
+  <!-- Right Corner: Social Links -->
+  <div id="nav-right" class="glass-corner">
+    <a href="https://github.com/cczupras" target="_blank" rel="noopener noreferrer" class="nav-icon-link" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/christian-czupras/" target="_blank" rel="noopener noreferrer" class="nav-icon-link" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/cczupras/" target="_blank" rel="noopener noreferrer" class="nav-icon-link" aria-label="Instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    <a href="mailto:christian@czupras.de" class="nav-icon-link" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a>
+  </div>
+
+  <div class="background-container">
+    <main class="layout-wrapper post-container">
+      <header class="content-card post-header-card">
+        <nav class="post-breadcrumbs">
+          <a href="{{ '/' | relative_url }}"><i class="fa-solid fa-arrow-left"></i> All Posts</a>
+        </nav>
+        <h1 class="post-main-title">{{ page.title | default: site.title }}</h1>
+      </header>
+
+      <article class="content-card">
+        <div class="post-content">
+          {{ content }}
+        </div>
+      </article>
+
+      <section class="content-card author-card">
+        <img src="{{ '/assets/avatar.png' | relative_url }}" alt="Christian Czupras" class="avatar">
+        <div class="author-info">
+          <h3>Christian Czupras</h3>
+          <p>Software developer, tech explorer & lifelong learner. Documenting weekly discoveries in code, AI workflows, fitness, and life.</p>
+          <div class="author-socials">
+            <a href="https://czupras.de/" target="_blank"><i class="fa-solid fa-globe"></i> Website</a>
+            <a href="https://github.com/cczupras" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/christian-czupras/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>&copy; {{ site.time | date: '%Y' }} <a href="https://czupras.de/">Christian Czupras</a> · What I Learned</p>
+      </footer>
+    </main>
+  </div>
+
 </body>
 </html>

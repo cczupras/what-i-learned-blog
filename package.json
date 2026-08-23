@@ -1,0 +1,23 @@
+{
+  "name": "what-i-learned-blog",
+  "version": "1.0.0",
+  "description": "What I learned this week - Personal tech and learning blog by Christian Czupras",
+  "main": "src/build.js",
+  "scripts": {
+    "build": "node src/build.js",
+    "start": "node src/build.js && npx serve docs",
+    "dev": "node src/build.js && npx serve docs"
+  },
+  "keywords": [
+    "blog",
+    "markdown",
+    "static-site-generator",
+    "github-pages"
+  ],
+  "author": "Christian Czupras",
+  "license": "MIT",
+  "devDependencies": {
+    "marked": "^15.0.7",
+    "serve": "^14.2.4"
+  }
+}

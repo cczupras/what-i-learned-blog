@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What I Learned · Christian Czupras Blog</title>
+    <meta name="description" content="Weekly insights, software engineering, AI exploration, fitness, and lifelong learning notes by Christian Czupras.">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Left Corner: Back to czupras.de -->
+    <div id="nav-left" class="glass-corner">
+        <a href="https://czupras.de/" class="nav-brand" title="Back to Homepage">
+            <img src="assets/avatar.png" alt="Christian Czupras">
+            <span>czupras.de</span>
+        </a>
+    </div>
+
+    <!-- Right Corner: Social Links -->
+    <div id="nav-right" class="glass-corner">
+        <a href="https://czupras.de/" target="_blank" rel="noopener noreferrer" class="nav-icon-link" aria-label="Website" title="Personal Website"><i class="fa-solid fa-globe"></i></a>
+        <a href="https://github.com/cczupras" target="_blank" rel="noopener noreferrer" class="nav-icon-link" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/christian-czupras/" target="_blank" rel="noopener noreferrer" class="nav-icon-link" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/cczupras/" target="_blank" rel="noopener noreferrer" class="nav-icon-link" aria-label="Instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:christian@czupras.de" class="nav-icon-link" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+
+    <div class="background-container">
+        <main class="layout-wrapper">
+
+            <!-- Hero Card -->
+            <header class="content-card hero-card">
+                <img src="assets/avatar.png" alt="Christian Czupras" class="avatar">
+                <h1 class="hero-title">What I <span>Learned</span> This Week</h1>
+                <p class="hero-subtitle">
+                    A weekly log of insights, AI experiments, software craftsmanship, endurance training, and personal growth by Christian Czupras.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-pill">
+                        <i class="fa-solid fa-book-open"></i>
+                        <span id="posts-count">33 posts</span>
+                    </div>
+                    <div class="stat-pill">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <span>Weekly updates</span>
+                    </div>
+                    <div class="stat-pill">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Tech & Life</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Search and Filter Controls Card -->
+            <section class="content-card controls-card">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="search-input" class="search-input" placeholder="Search posts by keyword, title, or topic..." aria-label="Search posts">
+                </div>
+
+                <div class="filter-row">
+                    <div class="year-tabs" role="tablist" aria-label="Filter by Year">
+                        <button class="year-tab-btn active" data-year="all">All Years</button>
+                        <button class="year-tab-btn" data-year="2026">2026</button>
+                        <button class="year-tab-btn" data-year="2025">2025</button>
+                    </div>
+
+                    <div class="topic-filters" aria-label="Filter by Topic">
+                        <button class="topic-btn active" data-topic="all"><i class="fa-solid fa-layer-group"></i> All Topics</button>
+                        <button class="topic-btn" data-topic="Tech"><i class="fa-solid fa-laptop-code"></i> Tech</button>
+                        <button class="topic-btn" data-topic="Personal"><i class="fa-solid fa-pen-nib"></i> Personal</button>
+                        <button class="topic-btn" data-topic="Sports & Health"><i class="fa-solid fa-heart-pulse"></i> Sports</button>
+                        <button class="topic-btn" data-topic="Misc"><i class="fa-solid fa-robot"></i> Misc</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Posts Grid -->
+            <section class="posts-grid" id="posts-grid">
+                
+        <a href="2026/2025w52%20-%20From%20Noise%20to%20Resonance/index.html" class="post-card" data-year="2026" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2026 · W52</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 4 min</span>
+                </div>
+                <h2 class="post-card-title">From Noise to Resonance</h2>
+                <p class="post-card-excerpt">2025 was a year of change for me. I embraced all the challenges and as you have read I have learned a lot. Despite what I have shared here there are also a lot of very persona...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w51%20-%20Restart/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W51</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 12 min</span>
+                </div>
+                <h2 class="post-card-title">Restart</h2>
+                <p class="post-card-excerpt">Long time no see. Yes, it has been a while since Week 41. If you are reading this, you might have wondered where the weekly updates went. To be honest, this blog became a bit...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w41%20-%20Wanderlust/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W41</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 6 min</span>
+                </div>
+                <h2 class="post-card-title">Wanderlust</h2>
+                <p class="post-card-excerpt">While thinking of a new approach to this blog I first started to list some bullet points for a workflow I had in mind. Later I wanted to draft some text out of these but then...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w40%20-%20One-Health/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W40</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 5 min</span>
+                </div>
+                <h2 class="post-card-title">One-Health</h2>
+                <p class="post-card-excerpt">Yes - I took a break - but I’m not done yet. With this blog I want to log my thoughts but also bring some value for you as a reader. Recently time was quite rare because of a...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w37%20-%20Cloning%20Myself/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W37</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 7 min</span>
+                </div>
+                <h2 class="post-card-title">Cloning Myself</h2>
+                <p class="post-card-excerpt">Man this week was packed with a lot of new experiences. I achieved a goal which I set for myself this year - cycling more that 100km in one day 🏆. Feels really nice - read mo...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w36%20-%20Team%20Mode/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W36</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 7 min</span>
+                </div>
+                <h2 class="post-card-title">Team Mode</h2>
+                <p class="post-card-excerpt">![](https://prod-files-secure.s3.us-west-2.amazonaws.com/8ea9ff09-7c46-4257-8f8b-6dbe53d5cdb7/9fbbe051-ef9f-4360-b954-e2684a1c512d/Team_Rynkeby.jpeg?X-Amz-Algorithm=AWS4-HMAC-...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w35%20-%2010%20Miles%20Entitlement/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W35</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 6 min</span>
+                </div>
+                <h2 class="post-card-title">10 Miles Entitlement</h2>
+                <p class="post-card-excerpt">Hey reader - welcome back. Yes - I know again a day late - but I have excuses 😉. Well but let’s put that aside.. You might also think now that he is getting sloppy with publi...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w34%20-%20Finally%20Binary/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W34</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 7 min</span>
+                </div>
+                <h2 class="post-card-title">Finally Binary</h2>
+                <p class="post-card-excerpt">This week I’m back in the rhythm of publishing on a Sunday. I just came back from my first Road bike group ride. It was a blast. There is more to it but I will not tell you mo...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w33%20-%20Summer%20Lull/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W33</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 4 min</span>
+                </div>
+                <h2 class="post-card-title">Summer Lull</h2>
+                <p class="post-card-excerpt">It seems like Tuesday is my new Sunday - where while I am commuting to work write some lines, correct and adjust the prepared texts and publish this blog.  During summer, news...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w32%20-%20Too%20late/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W32</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 10 min</span>
+                </div>
+                <h2 class="post-card-title">Too late</h2>
+                <p class="post-card-excerpt">It is already Tuesday as I’m writing this - too days after publishing deadline on Sunday that I had set myself for each week this year. I just did not find the time because ot...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w31%20-%20Mind%20Carousel/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W31</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 13 min</span>
+                </div>
+                <h2 class="post-card-title">Mind Carousel</h2>
+                <p class="post-card-excerpt">Sometimes it feels like being trapped in a thought or mind carousel, where the same worries and considerations keep circling in your head without leading to any real results....</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w30%20-%20Interface%20Therapy/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W30</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 10 min</span>
+                </div>
+                <h2 class="post-card-title">Interface Therapy</h2>
+                <p class="post-card-excerpt">Hello folks, just a short note here this week - I wrote more text in the following sections. I managed to create the article for the tech section already before the weekend -...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w29%20-%20Sleep%20Compliance/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W29</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 13 min</span>
+                </div>
+                <h2 class="post-card-title">Sleep Compliance</h2>
+                <p class="post-card-excerpt">Let’s be honest: this week was a bit of a blur. I found myself sitting on my terrasse yesterday, thinking about my blog and realizing I hadn’t collected any topics - not even...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w28%20-/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W28</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 14 min</span>
+                </div>
+                <h2 class="post-card-title">Week 28 Reflections</h2>
+                <p class="post-card-excerpt">Wow I have only added one section as I am writing this and there is already a lot of content on this page. Both audios I have recorded to far have about 7 minutes of my voice...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w27%20-%20Agentify%20Myself/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W27</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 11 min</span>
+                </div>
+                <h2 class="post-card-title">Agentify Myself</h2>
+                <p class="post-card-excerpt">First week after the half year milestone and I already added some changes. As you will notice all the sections now follow the same style - I have created myself a template whi...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w26%20-%20Six%20Month/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W26</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 8 min</span>
+                </div>
+                <h2 class="post-card-title">Six Month</h2>
+                <p class="post-card-excerpt">--- This week will be different - no sections just this one. I thought after half a year I just wanted to focus on a review of this blog. It has been a great adventure so far...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w25%20-%20Debugging%20Life/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W25</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 15 min</span>
+                </div>
+                <h2 class="post-card-title">Debugging Life</h2>
+                <p class="post-card-excerpt">Hello readers, welcome back to this week&#039;s blog. This week, I am looking back and reflecting the practical application of time blockers for dedicated focus periods - like in t...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w24%20-%20In%20the%20lab/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W24</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 10 min</span>
+                </div>
+                <h2 class="post-card-title">In the lab</h2>
+                <p class="post-card-excerpt">Wow, what a week… I have been attending the BC TechDays conference which was an absolute blast. I it is a community driven developer conference about the Business Central ERP...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w23%20-%20I%20dont%20speak%20binary/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W23</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 16 min</span>
+                </div>
+                <h2 class="post-card-title">I dont speak binary</h2>
+                <p class="post-card-excerpt">&gt; I’m sorry. I don’t speak binary. I’m counting on you.- the Mandalorian  	 		![](https://prod-files-secure.s3.us-west-2.amazonaws.com/8ea9ff09-7c46-4257-8f8b-6dbe53d5cdb7/af5...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w22%20-%20Reading/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W22</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 9 min</span>
+                </div>
+                <h2 class="post-card-title">Reading</h2>
+                <p class="post-card-excerpt">![](https://prod-files-secure.s3.us-west-2.amazonaws.com/8ea9ff09-7c46-4257-8f8b-6dbe53d5cdb7/294d4231-c9f1-4b06-8f27-260bb5b69214/1000057800.png?X-Amz-Algorithm=AWS4-HMAC-SHA...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w21%20-%20Companion/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W21</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 9 min</span>
+                </div>
+                <h2 class="post-card-title">Companion</h2>
+                <p class="post-card-excerpt">This morning when I created this page I did not know what to write about… Then after the first formatting actions and some sips of coffee the creativity and memory of the week...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w20%20-%20Synchronicites/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W20</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 8 min</span>
+                </div>
+                <h2 class="post-card-title">Synchronicites</h2>
+                <p class="post-card-excerpt">I am currently reading a novel from The First Verse. In this fiction novel the story is based on books and how they reveal answers by coincidently choosing text passages that...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w19%20-%20Hybrid%20Training/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W19</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 13 min</span>
+                </div>
+                <h2 class="post-card-title">Hybrid Training</h2>
+                <p class="post-card-excerpt">I am still on vacation and as you know this is the time where I reflect the most - just because there is a lot time to do so. I am not a big fan of “new years resolutions” and...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w18%20-%20Cast%20Away/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W18</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 11 min</span>
+                </div>
+                <h2 class="post-card-title">Cast Away</h2>
+                <p class="post-card-excerpt">Cast away while writing this post from the beautiful island of Amrum. Yes, it is time for some vacation again. Which means spending more time out in the nature (hopefully the...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w17%20-%20Mind%20Tricks/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W17</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 10 min</span>
+                </div>
+                <h2 class="post-card-title">Mind Tricks</h2>
+                <p class="post-card-excerpt">Let me start with a quote this week: &gt; &quot;People are all born with a love of learning, but the fixed mindset can undo it. Think of a time you were enjoying something—doing a cro...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w16%20-%20Intervalls/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W16</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 11 min</span>
+                </div>
+                <h2 class="post-card-title">Intervalls</h2>
+                <p class="post-card-excerpt">If you are following this blog you might have recognized that I love to do research on topics that I find interesting. Most of the topics that I researched in the private part...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w15%20-%20Building%20Structures/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W15</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 7 min</span>
+                </div>
+                <h2 class="post-card-title">Building Structures</h2>
+                <p class="post-card-excerpt">It has been a crazy week so far with a one day AI development &amp; security conference and at the end a workshop about future topics in my company. In between at home we got a mo...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w14%20-%20Connecting%20Dots/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W14</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 9 min</span>
+                </div>
+                <h2 class="post-card-title">Connecting Dots</h2>
+                <p class="post-card-excerpt">It is crazy that this is already the 14th episode of my blog. Time flies and quite a bit has changed since I started it - did you notice the small changes here and there? This...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w13%20-/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W13</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 10 min</span>
+                </div>
+                <h2 class="post-card-title">Week 13 Reflections</h2>
+                <p class="post-card-excerpt">Last week, I was reminded of the importance of personal relationships. I spent the weekend in Berlin with my fellow students, engaging in many meaningful conversations and sha...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w12%20-%20Inside%20Zuse/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W12</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 8 min</span>
+                </div>
+                <h2 class="post-card-title">Inside Zuse</h2>
+                <p class="post-card-excerpt">I just came back from a weekend with my study buddies. We have spend the weekend in Berlin together with our former computer science professor and have visited the “Deutsches...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w11%20-%20Prompt%20Week/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W11</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 8 min</span>
+                </div>
+                <h2 class="post-card-title">Prompt Week</h2>
+                <p class="post-card-excerpt">Hi Readers, this week I implemented little changes. I got rid of the “Daily Highlights” because I did not really fill them and figured out that they are not really helpful for...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w4%20-%20Building%20Interfaces%20in%20a%20busy%20week/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W4</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 10 min</span>
+                </div>
+                <h2 class="post-card-title">Building Interfaces in a busy week</h2>
+                <p class="post-card-excerpt">When looking at the draft page of this blog on Friday I thought this page will be almost empty. Today on Saturday it turns out that I have collected more notes and thoughts th...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <a href="2025/2025w3%20-%20Productivity%20Boost%20First%20Week%20Back/index.html" class="post-card" data-year="2025" data-topics="Personal,Tech,Sports & Health,Misc">
+            <div>
+                <div class="post-card-header">
+                    <span class="week-badge">2025 · W3</span>
+                    <span class="post-date"><i class="fa-regular fa-clock"></i> 7 min</span>
+                </div>
+                <h2 class="post-card-title">Productivity Boost First Week Back</h2>
+                <p class="post-card-excerpt">Welcome (back) to this blog. I hope you take some inspiration home after reading some of the text blocks? I‘m still committed to create a page weekly by Sunday evening. It sti...</p>
+            </div>
+            <div class="post-card-footer">
+                <div class="post-topics"><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></div>
+                <span class="read-more-link">Read <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </a>
+                
+                <div id="no-results" class="no-results" style="display: none;">
+                    <i class="fa-regular fa-face-frown-open"></i>
+                    <p>No matching posts found. Try another search term or filter.</p>
+                </div>
+            </section>
+
+            <footer class="site-footer">
+                <p>&copy; 2026 <a href="https://czupras.de/">Christian Czupras</a> · Published via GitHub Pages</p>
+            </footer>
+
+        </main>
+    </div>
+
+    <script src="assets/main.js"></script>
+</body>
+</html>

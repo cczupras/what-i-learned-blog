@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Carousel - What I Learned · Christian Czupras</title>
+    <meta name="description" content="Sometimes it feels like being trapped in a thought or mind carousel, where the same worries and considerations keep circling in your head without leading to any real results....">
+    <link rel="icon" type="image/png" href="../../assets/favicon.png">
+    <link rel="stylesheet" href="../../assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Left Corner: Back to czupras.de -->
+    <div id="nav-left" class="glass-corner">
+        <a href="https://czupras.de/" class="nav-brand" title="Back to Homepage">
+            <img src="../../assets/avatar.png" alt="Christian Czupras">
+            <span>czupras.de</span>
+        </a>
+        <a href="../../index.html" class="nav-tag">Blog Home</a>
+    </div>
+
+    <!-- Right Corner: Social Links -->
+    <div id="nav-right" class="glass-corner">
+        <a href="https://github.com/cczupras" target="_blank" rel="noopener noreferrer" class="nav-icon-link" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/christian-czupras/" target="_blank" rel="noopener noreferrer" class="nav-icon-link" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/cczupras/" target="_blank" rel="noopener noreferrer" class="nav-icon-link" aria-label="Instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:christian@czupras.de" class="nav-icon-link" aria-label="Email" title="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+
+    <div class="background-container">
+        <main class="layout-wrapper post-container">
+            
+            <!-- Post Header Card -->
+            <header class="content-card post-header-card">
+                <nav class="post-breadcrumbs">
+                    <a href="../../index.html"><i class="fa-solid fa-arrow-left"></i> All Posts</a>
+                    <span>/</span>
+                    <span>2025</span>
+                    <span>/</span>
+                    <span>Week 31</span>
+                </nav>
+
+                <div style="margin-bottom: 12px;">
+                    <span class="week-badge">2025 · Week 31</span>
+                </div>
+
+                <h1 class="post-main-title">Mind Carousel</h1>
+
+                <div class="post-meta-row">
+                    <div class="post-meta-item">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>13 min read</span>
+                    </div>
+                    <div class="post-meta-item">
+                        <i class="fa-solid fa-tags"></i>
+                        <span><span class="topic-tag">Personal</span> <span class="topic-tag">Tech</span> <span class="topic-tag">Sports & Health</span> <span class="topic-tag">Misc</span></span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Post Content Card -->
+            <article class="content-card">
+                <div class="post-content">
+                    <div class="notion-section-badge green_bg"><i class="fa-solid fa-pen-nib"></i> #1 Personal ✒️</div>
+
+<h2>Personal Note</h2>
+
+<p>Sometimes it feels like being trapped in a <strong>thought or mind carousel</strong>, where the same worries and considerations keep circling in your head without leading to any real results. You might know the feeling: your head is full, but you don't really make any progress.<br>I came to this topic as I know it by myself but this week I listened to a podcast where this topic was addressed and the insights are quite helpful. Find a link to the podcast (german) in the <mention-page url="https://app.notion.com/p/242b04fbcf958147925cf79659e0ef33#242b04fbcf958127aadcc0b11e732dc2">#5 Media of the week 🎶📺</mention-page>. In this podcast you hear about <strong>how our brain deals with these loops</strong> and what science has to say about it. This week I used the tips from last weeks video by Andrej Karpathy and used a Google NotebookLM to revise the podcast. I took a transcript, add some of the sources linked in the show notes and asked some specific questions to the sources to better understand the content.<br>It is fascinating to see how concepts from the AI world, such as context and model behavior, can also be applied to our own thinking. The continuous learning and adapting that I document in my blog is not limited to technical skills but also extends to understanding our own mental processes. It is a constant debugging of life, as I called it in week 25 <mention-page url="https://app.notion.com/p/219b04fbcf95809893d8e3be0bc14151"/> .<br>Despite the turbulent week and the many appointments, I managed to gather some valuable insights that I would like to share with you today. As always, writing this blog has helped me organize my thoughts and <strong>connect the dots</strong> <mention-page url="https://app.notion.com/p/1ccb04fbcf958062b070e3acb16eb0ed"/> .<br><strong>Enjoy reading and don’t forget to leave some feedback.</strong></p>
+
+<div class="notion-section-badge blue_bg"><i class="fa-solid fa-laptop-code"></i> #2 Tech 💻</div>
+
+<h3>Code Review</h3>
+
+<p>As promised last week I gave a shot at letting GitHub Copilot review the Business Central DMS (Document Management System) App I was working on the last weeks. And what can I say the results are quite good and helpful.<br>I did not ask Copilot to rewrite my code. I could have easily done that, but that was not the intention. I wanted to see if it can assist me in code review - hopefully even while I am working on a project. This time I am doing this after finishing the final internal tests. The ones with the customer are about to start. So it is not too late to refactor code - well it is never too late to refactor.<br>So what did I do? Well, first I switched the Copilot to “Ask” mode rather than Agent, second I added the whole workspace as context (@workspace) and then asked for a code review and improvement suggestions.<br>At first the outcome positively rated the architecture with interfaces a pattern that allows for flexible implementations and good separation of concerns. It also gave me the strength in bullet points which is quite a nice overview and I am thinking to put that into the readme file as guidelines for future adaptions by other people.<br>Then for me the most interesting and valuable part was the improvement suggestions - there are plenty. First - of course - documentation. I have not really heavily documented the code - but hey as AI understands my code even better than I do after couple weeks - this will be the first low hanging fruit for the Agent mode - run over the procedures and create documentation headers for each, well after a second thought - may be it should be the last step after the other refactoring because otherwise I might end up in doing it twice and need to revisit the documentation.<br>It also suggested better and more consistent naming together with reducing code duplication and consolidated error handling. All valid and good points. We all know it, being deep in the code in the need of another procedure - we use quite the same parameters, but in a different order and a little bit different naming. Some weeks later when the need arises for the next feature it is hard to follow. So this is quite a good learning that I take here to let AI check for consistency and apply some re-sorting and re-naming for a better structure.<br>Copilots conclusion after the improvement suggestions:</p>
+
+<blockquote>Implementing these suggestions will improve maintainability, readability, and robustness. The primary focus should be on adding comprehensive documentation, standardizing error handling, and reducing code duplication.</blockquote>
+
+<p>Sounds great - I will do that.<br>Another thing that came to my mind was code discoverability - you don’t know what I am talking about? Read my blog about it: <mention-page url="https://app.notion.com/p/1a3b04fbcf95801190daf70ba7c6646d"/>.<br>So I asked Copilot to suggest a different folder structure, it went to work and gave me a nice result. I do not fully agree with all the details but it is a start which I will start moving on this week. Overall it sums the intention up to the following</p>
+
+<blockquote><strong>Key Benefits of the new Structure</strong></blockquote>
+
+<ol><li><strong>Logical Grouping</strong>: Related components are grouped together</li><li><strong>Clear Implementation Paths</strong>: Easy to find implementations of interfaces</li><li><strong>Microsoft Alignment</strong>: Similar to Microsoft's module-based approach</li><li><strong>Better Discoverability</strong>: Clearer navigation for developers</li></ol>
+
+<p>After all this was only a quick shot with simple prompts - now it is time to work on refining the prompts, save those for later in a code review prompt file I can use anytime and most important of course carry out the recommended actions with careful consideration.<br><strong>Do you like the idea of having AI as your code reviewer? Tell me what you think.</strong></p>
+
+<div class="notion-section-badge orange_bg"><i class="fa-solid fa-heart-pulse"></i> #3 Sports, Food & Health 🏋️🚴🥦</div>
+
+<h3>Breaking the Loop: Understanding and Countering Your Repetitive Negative Thoughts</h3>
+
+<p>This section is about health and I have not written a lot about it so far. This week will be a change and I will write a bit about mental health - heavily inspired by the podcast I just listened to. Here is what I pulled out of it with a bit of help of AI for the writing. 🤖<br>Do you ever find yourself stuck in a mental carousel, endlessly replaying worries or past events? This is what psychologist Leon Windscheid calls <strong>"repetitive negative thinking" (RNT)</strong>, a common experience where your mind just spins without leading to any action or solution. Leon, drawing from various research models, identifies <strong>four distinct types of RNT</strong>, each with its own underlying mechanism and counter-strategy. Understanding which type resonates with you can be the first step towards breaking free from these unhelpful thought patterns.</p>
+
+
+            <details class="notion-details">
+                <summary>Let's dive into the four types and their recommended approaches:</summary>
+                <div class="details-content"><ul><li><strong>The Avoider:</strong></li><li><strong>The Problem:</strong> Based on the Avoidance Model of Worry, this type avoids painful mental images or unwelcome truths. You push away negative thoughts, which temporarily feels good because it removes something negative. However, this prevents emotional processing and habituation to fear, keeping the anxiety alive instead of allowing it to subside. As Leon explained, it's like staying in a "diffuse fog" on the side of a mountain, rather than climbing to the peak of your fear and letting it naturally dissipate.</li><li><strong>The Strategy:</strong> <strong>Confrontation</strong>. Think the fear to its absolute end. For instance, if you worry about losing your job, fully imagine the worst possible scenario, no matter how absurd it seems. Atze Schröder shared a similar personal experience of overcoming shyness by confronting situations where he might be ridiculed, finding that direct confrontation ultimately resolved his anxiety.</li><li><strong>The Security Seeker:</strong></li><li><strong>The Problem:</strong> Rooted in the Intolerance of Uncertainty Model, these individuals find uncertain situations stressful. They use worrying to "insure" themselves against negative events, meticulously planning for every option to create a false sense of control and certainty. This process, however, undermines their trust in their own ability to solve problems when they arise.</li><li><strong>The Strategy:</strong> Implement a <strong>fixed "worry appointment"</strong>. Designate a specific time each day (e.g., 20 minutes every evening at 6 PM) where you allow yourself to ruminate freely. Outside of this time, actively postpone those worries. This teaches your brain that the thoughts will be addressed, but not right now, helping to regain control over when and how you engage with them.</li><li><strong>The Consistent:</strong></li><li><strong>The Problem:</strong> This type is explained by the Contrast Avoidance Model. People in this category maintain a constant negative mood or effect because they are highly sensitive to emotional contrasts, especially negative ones. They prefer to stay "down" to avoid the deeper fall that might occur if they allowed themselves to experience true highs.</li><li><strong>The Strategy:</strong> <strong>Write down your worries on paper and perform a reality check</strong>. This forces you to slow down the thought carousel, as writing is slower than thinking. By seeing your diffuse worries concretely on paper, you can critically evaluate their plausibility and whether they are fair to yourself, rather than getting caught in automatic mental loops.</li><li><strong>The Convinced:</strong></li><li><strong>The Problem:</strong> This type stems from beliefs about one's own thinking. Individuals may hold positive beliefs about rumination (e.g., it helps me prepare) or negative beliefs (e.g., it's unhealthy and uncontrollable). Both types of beliefs can inadvertently lead to more rumination or an attempt to suppress thoughts, which often backfires.</li><li><strong>The Strategy:</strong> <strong>Loosen your beliefs about rumination and accept the repetitive negative thoughts</strong>. The key is to change your relationship with these thoughts, accepting them rather than judging them or trying to fight them. Imagine stepping off the mental carousel and watching your thoughts from a distance, accepting their presence without letting them spin you out of control.</li></ul></div>
+            </details>
+        
+
+<p>Understanding these different motivations behind repetitive negative thinking can empower you to choose more effective strategies for managing your mental well-being. While these are practical tips for everyday life, it's important to remember that if rumination significantly impacts your daily life or causes distress, seeking professional help is a crucial and effective step.<br>I will definitely apply these strategies on myself, as I also find myself in these traps sometimes. Of course sports help me to push the negative thoughts away and get some endorphins to push me on the positive side again, but that is only good for a certain time. I realized with this blog, that writing helped me reflect, even when just talking to my phone to record notes it helps structuring my thoughts. With the additional help of what I just learned from the podcast that could be a new super power to be more focused, more productive and could lay the path for better resolutions in all aspects of life.<br><strong>What's your thought on this? I love to hear about it - either in the comments or write me a personal message - I’m all ears.</strong></p>
+
+<div class="notion-section-badge gray_bg"><i class="fa-solid fa-bookmark"></i> #4 Inside AI 🤖</div>
+
+<h3>News Fatigue</h3>
+
+<p>Do you know that feeling that there is a lot of constant new news and although you are interested it gets you tired. I have that feeling with AI right now. In every corner you hear something new about it - some amazing things here and ground breaking news there. It is too much to follow and way too fast to try everything out.<br>From now on I will take a little bit of shift in gears and select topics that I can really related and that are within reach - potentially to apply these to my work or private matters.<br>Do not get me wrong - I will stay curious about AI but I will not follow every model and every new tool - however I am more interested in the concepts behind and how these evolve to better tools.</p>
+
+<h3>ASI-ARCH and the AlphaGo Moment</h3>
+
+<p>I recently read about ASI-ARCH and how they used AI to build new AI - highly autonomously - future is here. Well kind of. We all have seen this coming and expected it. The really cool thing about it they all made it public and open source - no hidings or closed models. I think that is the right step also in regards of security and control over AI.<br>Here is the link to their repository:</p>
+
+
+            <a href="https://app.notion.com/p/242b04fbcf958147925cf79659e0ef33#244b04fbcf9580b49418cd0542f88469" target="_blank" rel="noopener noreferrer" class="notion-bookmark-card">
+                <div class="notion-bookmark-info">
+                    <span class="notion-bookmark-title"><i class="fa-solid fa-arrow-up-right-from-square"></i> Notion Page</span>
+                    <span class="notion-bookmark-url">https://app.notion.com/p/242b04fbcf958147925cf79659e0ef33#244b04fbcf9580b49418cd0542f88469</span>
+                </div>
+                <i class="fa-solid fa-chevron-right notion-bookmark-icon"></i>
+            </a>
+        
+
+<p>You can also download the sources and run it yourself to find new linear attention mechanisms. I truly believe that will be the future of science and work. Human will create the basis and set the guardrails and then a bunch of AI Agents with dedicated roles will carry out the work.</p>
+
+<h3>MetaGPT</h3>
+
+<p>Similar things I learned already exists for development. There is MetaGPT:</p>
+
+
+            <a href="https://app.notion.com/p/242b04fbcf958147925cf79659e0ef33#244b04fbcf9580dd80bde176e6014e0d" target="_blank" rel="noopener noreferrer" class="notion-bookmark-card">
+                <div class="notion-bookmark-info">
+                    <span class="notion-bookmark-title"><i class="fa-solid fa-arrow-up-right-from-square"></i> Notion Page</span>
+                    <span class="notion-bookmark-url">https://app.notion.com/p/242b04fbcf958147925cf79659e0ef33#244b04fbcf9580dd80bde176e6014e0d</span>
+                </div>
+                <i class="fa-solid fa-chevron-right notion-bookmark-icon"></i>
+            </a>
+        
+
+<p>MetaGPT is supposed to work on SOP’s - may be something I should look into for my future work items and customer requirement - it could be beneficial to create those SOP’s and get used to it - either for working on it in a classical manner or start implementing more AI to operate on this. I believe we can learn a lot about our own way of working when digging deeper into the research where people try to teach AI how to work - weird world isn’t it?<br>But you could ask now - what is an SOP?</p>
+
+
+            <details class="notion-details">
+                <summary>**Here is a wrap up on SOP and how MetaGPT has build it in:**</summary>
+                <div class="details-content"><p>An <strong>SOP</strong>, which stands for <strong>Standard Operating Procedure</strong>, refers to a set of defined guidelines that outline responsibilities and establish standards for intermediate outputs within a workflow.<br>In the context of MetaGPT, SOPs are a fundamental concept, embodied in the philosophy "Code = SOP(Team)". They integrate human-like workflows and procedural knowledge into AI processes to enhance output consistency and reliability.<br>Here's how SOPs function within MetaGPT:</p>
+
+<ul><li><strong>Blueprints for Tasks</strong> SOPs serve as blueprints that break down complex tasks into manageable components. Agents are then assigned these sub-tasks, and their performance is aligned with standardized outputs.</li><li><strong>Promoting Collaboration</strong> They promote collaboration among teams by deconstructing project tasks into smaller, actionable procedures, which are then assigned to specific, specialized roles within the simulated software company.</li><li><strong>Structured Workflows</strong> MetaGPT encodes these SOPs into prompt sequences to organize and promote multi-agent workflows, introducing structure and opportunities for refinement throughout the development process. This ensures that all agents follow a strict and streamlined workflow, and that all "handovers" (communication of intermediate results) comply with established standards.</li><li><strong>Reducing Errors</strong> This structured approach reduces the risk of errors and inconsistencies, such as "hallucinations" that might be caused by unconstrained dialogue between Large Language Models (LLMs).</li><li><strong>Generating Structured Outputs</strong> By adhering to SOPs, MetaGPT agents generate structured outputs, including requirement documents, design artifacts, flowcharts, and interface specifications, which significantly enhances the success rate of the target code generation.</li><li><strong>Enhancing Robustness</strong> The integration of human-like SOPs, along with role-play expertise, structured communication, and streamlined workflows, considerably enhances the overall robustness of multi-agent systems and improves code generation quality.</li></ul></div>
+            </details>
+        
+
+<div class="notion-section-badge red_bg"><i class="fa-solid fa-bookmark"></i> #5 Media of the week 🎶📺</div>
+
+<h2>Podcast recommendation</h2>
+
+<p>These two hosts couldn’t be any different. One is a psychologist and the other a stand-up comedian. However the podcast is not fun it is dead serious and goes really deep. Both are close friends and they really take apart the topics and it is fun listening. I can highly recommend this episode. In case you do not understand German - just download the episode, let it transcribe and translate by your favorite AI.</p>
+
+
+            <a href="https://app.notion.com/p/242b04fbcf958147925cf79659e0ef33#244b04fbcf9580a19655dc27457499fc" target="_blank" rel="noopener noreferrer" class="notion-bookmark-card">
+                <div class="notion-bookmark-info">
+                    <span class="notion-bookmark-title"><i class="fa-solid fa-arrow-up-right-from-square"></i> Notion Page</span>
+                    <span class="notion-bookmark-url">https://app.notion.com/p/242b04fbcf958147925cf79659e0ef33#244b04fbcf9580a19655dc27457499fc</span>
+                </div>
+                <i class="fa-solid fa-chevron-right notion-bookmark-icon"></i>
+            </a>
+        
+
+<hr>
+
+<h3><strong>Breaking the Habit by Linkin Park</strong></h3>
+
+<p>This week, a song that addresses the theme of breaking patterns and habits fits perfectly with the focus on the mind carousel.<br><strong>Background of the Song:</strong> "Breaking the Habit" was released in 2003 and is part of the album "Meteora." The song deals with the struggle against addictions and compulsive behaviors, expressing the desire to break free from destructive patterns. It is characterized by its emotional depth and the combination of electronic elements and traditional rock. The song was personally significant for Chester Bennington, as it reflected his own struggles with dependencies.<br><strong>Listen to the Song:</strong></p>
+
+
+            <a href="https://app.notion.com/p/242b04fbcf958147925cf79659e0ef33#244b04fbcf9580d1ba81ca6753e2b232" target="_blank" rel="noopener noreferrer" class="notion-bookmark-card">
+                <div class="notion-bookmark-info">
+                    <span class="notion-bookmark-title"><i class="fa-solid fa-arrow-up-right-from-square"></i> Notion Page</span>
+                    <span class="notion-bookmark-url">https://app.notion.com/p/242b04fbcf958147925cf79659e0ef33#244b04fbcf9580d1ba81ca6753e2b232</span>
+                </div>
+                <i class="fa-solid fa-chevron-right notion-bookmark-icon"></i>
+            </a>
+        
+
+<hr>
+
+<h3>Reisen by Mia</h3>
+
+<p>Another song that keep circling in my ~~mind~~ ear was this one from one of my favorite German band.</p>
+
+
+            <a href="https://app.notion.com/p/242b04fbcf958147925cf79659e0ef33#244b04fbcf9580308cd8ef68b04fb0be" target="_blank" rel="noopener noreferrer" class="notion-bookmark-card">
+                <div class="notion-bookmark-info">
+                    <span class="notion-bookmark-title"><i class="fa-solid fa-arrow-up-right-from-square"></i> Notion Page</span>
+                    <span class="notion-bookmark-url">https://app.notion.com/p/242b04fbcf958147925cf79659e0ef33#244b04fbcf9580308cd8ef68b04fb0be</span>
+                </div>
+                <i class="fa-solid fa-chevron-right notion-bookmark-icon"></i>
+            </a>
+        
+
+<p>It has a great melody but what this song makes special is the depth of the lyrics. Wrapped into one sentence the key message is:</p>
+
+<blockquote>Overall, "Reisen" appears to be about the experience of travel as a metaphor for personal reflection and the search for inner peace amidst the constant motion of life.</blockquote>
+
+<div class="notion-section-badge purple_bg"><i class="fa-solid fa-bookmark"></i> Feedback 📣</div>
+
+<p>Here you can give me feedback, send ideas or just connect with me. Just leave a comment.</p>
+
+
+            <div class="notion-embed-container">
+                <iframe src="https://tally.so/embed/waKjo9?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1&week_hidden=2025w31" loading="lazy"></iframe>
+            </div>
+        
+
+<hr>
+
+
+            <a href="https://app.notion.com/p/242b04fbcf9581049c8be09c1511b699" target="_blank" rel="noopener noreferrer" class="notion-bookmark-card">
+                <div class="notion-bookmark-info">
+                    <span class="notion-bookmark-title"><i class="fa-solid fa-database"></i> Notion Database View</span>
+                    <span class="notion-bookmark-url">https://app.notion.com/p/242b04fbcf9581049c8be09c1511b699</span>
+                </div>
+                <i class="fa-solid fa-chevron-right notion-bookmark-icon"></i>
+            </a>
+        
+
+<hr>
+
+<p>©️ Christian Czupras - 2025</p>
+                </div>
+
+                <!-- Post Navigation -->
+                <div class="post-pagination">
+                    
+        <a href="../../2025/2025w30%20-%20Interface%20Therapy/index.html" class="pagination-btn prev">
+            <span class="pagination-label">← Previous Post</span>
+            <span class="pagination-title">2025 · W30: Interface Therapy</span>
+        </a>
+    
+                    
+        <a href="../../2025/2025w32%20-%20Too%20late/index.html" class="pagination-btn next">
+            <span class="pagination-label">Next Post →</span>
+            <span class="pagination-title">2025 · W32: Too late</span>
+        </a>
+    
+                </div>
+            </article>
+
+            <!-- Author Card -->
+            <section class="content-card author-card">
+                <img src="../../assets/avatar.png" alt="Christian Czupras" class="avatar">
+                <div class="author-info">
+                    <h3>Christian Czupras</h3>
+                    <p>Software developer, tech explorer & lifelong learner. Documenting weekly discoveries in code, AI workflows, fitness, and life.</p>
+                    <div class="author-socials">
+                        <a href="https://czupras.de/" target="_blank"><i class="fa-solid fa-globe"></i> Website</a>
+                        <a href="https://github.com/cczupras" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                        <a href="https://www.linkedin.com/in/christian-czupras/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="site-footer">
+                <p>&copy; 2026 <a href="https://czupras.de/">Christian Czupras</a> · What I Learned</p>
+            </footer>
+
+        </main>
+    </div>
+
+</body>
+</html>
