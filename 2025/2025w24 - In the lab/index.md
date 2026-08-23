@@ -1,0 +1,130 @@
+---
+layout: default
+title: "2025w24 - In the lab"
+---
+
+# #1 Personal ✒️ {color="green_bg"}
+## Personal Note
+Wow, what a week… I have been attending the BC TechDays conference which was an absolute blast. I it is a community driven developer conference about the Business Central ERP System. So much knowledge in really high quality sessions was shared and I got a lot of impulses. 
+This time I have approached it a bit different and you might guess it - notes went into my second brain. During the sessions I did not take that many notes or picture I have concentrated more on the speakers and content. Later in the ~~evening~~ night I sat down and audio recorded my impressions and reflections.
+The next thing is to get the links to the sessions on YouTube and the PowerPoint slides to sit down and extract details to my notes. Out of all that information I then should have a distilled version of the content relevant to me. Based on this and the impulses I got I want to make a 30 - 90 day plan of action points and milestones. Last year after the conference I felt the knowledge I had seen rather than gained vanished over time. That is why I take a different approach this time and use my notes as a working document.
+Here is a glimpse of what my overview page of the TechDays looks currently in my 2nd 🧠 brain:
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/8ea9ff09-7c46-4257-8f8b-6dbe53d5cdb7/788cae95-8e6e-4dba-8ca1-53ab7604f625/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UZNAF46I%2F20260823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260823T065532Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAMaCXVzLXdlc3QtMiJHMEUCIQCELklwxJTS%2FodBofX7YmblYyz1THv10CFu6hDOeL4NUgIgPfAyEsgYErVNF27WEAVN0IdRPCdLLzl6uFVZSIcdPEsqiAQIzP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDBFk%2BbXna0ELGImbJSrcAwuF2LZ9UoGGO96fuqyZPnaYEANBw6z4euA2CDYTjbsiK1OivAcKLcIrnjknEMlBaFEXfodOFETQju7MC0dtCfhJ4OAlOWkctA1uBojvj%2BcGYse3jC1p4JDXOP0EVg6Mx9N8CZ9%2FZQTlLv%2FSjohHPU3aprZvKD68KFi3UzKd6FtBpyjNdLRQ6HoAeMUzIDqidaCkbU0ddn2WOOEw%2BqUkjMyibgIY%2F0y1lOK8yEtGSL2oBD0TRWBGMCEMoRH%2BsJAB2QA4GWhOU7jgwiS04aentW5mHZBBMObazi%2FzlPXsCCSlyrMEkeFTLgl0dogi0yCRoUqTZcyvkSjjgcxhFittr6yLlSX%2BOehMdLyaRhvlOiFH9csvFL5tQfsC3rvPQniSC%2FU%2FvdgsEtJnOEz8It2e0XM%2F9erZgDMdsK3wsamlA8VdksHHXwg0ezyWkBtp4v820rBKxB6fY05pBwg0Ms16vZIQMIYFrPA71Oqgj1C1gtp4HlcrUw6xYeX1Ik%2Bc4QLROdRutx3jU%2FazmyuEffFVkOlE547ZLQGX7%2F38GCgMFRk5aLwicYZp4xG9gRv1GaZ7RHzWZEECwZvSNJu84jqomxixk3klmzRlNvTCRE8UYgBK7rjBfreZZV8XzkH7MPu0qdQGOqUBR2yfD4L57IwoBIxAIDqdRxJflG5N%2BL104FO4q5q77bywogqHukcjlqjak9mZAbLFwsVB47JfsoUZPepS3FSzc78AqDaLpgfNGUuJyY7ZXB6rnDUHoLGjzqlNROSzNamtw9lOvVTGpzsOleCTZDgkFNgcm771%2BKF%2BLplwN1CTlYmJpLknIhKUxShz4f8DvXWhUdBPu7DcO%2FSEwu6RFiTz1HpiqzDr&X-Amz-Signature=90debd49d84ba9e809b67153d9b75e1911f749c2cd5d66fd797e2c967834f4bf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+<empty-block/>
+As you can see I attended 7 - 90 minutes sessions in 2 days about various different topics. As I will work on the impressions and the learning in the next days here is only a short list of key learnings.
+### Key Learnings
+- Use the Tools provided by Microsoft (Performance Toolkit, Automated Test, Page Scripting, AI Studios…)
+- If you interact with Copilot or other AI’s make sure the context is set. Context is key for the outcome
+- Make room for learning time (time to go into a laboratory mode and play around with different ideas - that’s why I choose todays title.)
+- Structure is key. Structure the input like requirements from the customer, structure the ideas, structure the implementation ideas, architectural decision and structure the expectations on the outcome.
+	- Preferably use markdown to document all of this - humans can easily read it - AI as well.
+- You do not always have to be on top of the spear - rather take time to learn what is already proven and master it - in this way you can implement what is relevant for you and your business.
+Most of the amazing surprises and future gadgets have been revealed in sections of the presentations which are called “from the lab” - things are shared that are not yet ready to be shipped - more like a proof of concept.
+I was really enlightened by this and I decided to make some more room for lab hours - basically concentration time for playing around with some ideas and tools - not for a specific task or customer - just for learning time. The outcome might be useful for any future project - may be also for some of this blog.
+**Enjoy reading and don’t forget to leave some feedback.**
+# #2 Tech 💻 {color="blue_bg"}
+## Building AI applications
+One technical thing I would like to share with you is also a note from the TechDays sessions. In the prompt engineering concepts session by Microsoft the 2 speakers showed some behind the scenes concepts on how the recent AI Agents for Business Central are build.
+There is nothing magical behind it - except the *magic_function (a function that handles all unknown, you could also call it “catch” but magic sounds way cooler of course).*
+Basically they take the user input which can be any text of any structure or even fully unstructured. This text is send to the LLM with very strict instructions on the response format which should be JSON in this case. The trick here is to get an output that can easily be processed by source code - it only needs to have the same structure over and over again.
+The response will contain dedicated information about the intent, about a specific function that should be called along with some enriched data from the instructions. Same response as you would get if a REST API was called - it is predicable.
+But the power comes from the interpretation of any input. You do not have to be strict on the format the user is putting in for the question. You can imagine that will save a ton of time for building your applications, gives massive freedom to the user and useability will be improved. Let the LLM’s do the work of parsing the input and formatting a proper response. 
+With the help of the *magic_function* it is also possible to implement error handling. When you see the LLM identified the input as not related to the functionality or the intent was not understood your code will be guided to this function and you can response to the user or interface with an appropriate message.
+# #3 Sports, Food & Health 🏋️🚴🥦 {color="orange_bg"}
+## The conference almost destroyed my HRV
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/8ea9ff09-7c46-4257-8f8b-6dbe53d5cdb7/ed141d49-1ca4-4e30-848a-b3f7b124112f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UZNAF46I%2F20260823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260823T065532Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAMaCXVzLXdlc3QtMiJHMEUCIQCELklwxJTS%2FodBofX7YmblYyz1THv10CFu6hDOeL4NUgIgPfAyEsgYErVNF27WEAVN0IdRPCdLLzl6uFVZSIcdPEsqiAQIzP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDBFk%2BbXna0ELGImbJSrcAwuF2LZ9UoGGO96fuqyZPnaYEANBw6z4euA2CDYTjbsiK1OivAcKLcIrnjknEMlBaFEXfodOFETQju7MC0dtCfhJ4OAlOWkctA1uBojvj%2BcGYse3jC1p4JDXOP0EVg6Mx9N8CZ9%2FZQTlLv%2FSjohHPU3aprZvKD68KFi3UzKd6FtBpyjNdLRQ6HoAeMUzIDqidaCkbU0ddn2WOOEw%2BqUkjMyibgIY%2F0y1lOK8yEtGSL2oBD0TRWBGMCEMoRH%2BsJAB2QA4GWhOU7jgwiS04aentW5mHZBBMObazi%2FzlPXsCCSlyrMEkeFTLgl0dogi0yCRoUqTZcyvkSjjgcxhFittr6yLlSX%2BOehMdLyaRhvlOiFH9csvFL5tQfsC3rvPQniSC%2FU%2FvdgsEtJnOEz8It2e0XM%2F9erZgDMdsK3wsamlA8VdksHHXwg0ezyWkBtp4v820rBKxB6fY05pBwg0Ms16vZIQMIYFrPA71Oqgj1C1gtp4HlcrUw6xYeX1Ik%2Bc4QLROdRutx3jU%2FazmyuEffFVkOlE547ZLQGX7%2F38GCgMFRk5aLwicYZp4xG9gRv1GaZ7RHzWZEECwZvSNJu84jqomxixk3klmzRlNvTCRE8UYgBK7rjBfreZZV8XzkH7MPu0qdQGOqUBR2yfD4L57IwoBIxAIDqdRxJflG5N%2BL104FO4q5q77bywogqHukcjlqjak9mZAbLFwsVB47JfsoUZPepS3FSzc78AqDaLpgfNGUuJyY7ZXB6rnDUHoLGjzqlNROSzNamtw9lOvVTGpzsOleCTZDgkFNgcm771%2BKF%2BLplwN1CTlYmJpLknIhKUxShz4f8DvXWhUdBPu7DcO%2FSEwu6RFiTz1HpiqzDr&X-Amz-Signature=b5e17d082a502b9b814213111cf2be7cd5f868b3c9843c6d4eabf4e22686c019&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+As you can see my HRV is slowly going up and down after the vacation some weeks ago with the negative peek during the BC TechDays - no wonder, long days less sleep, no sport.
+I had my running shoes packed so I was prepared to go for a run in the morning before breakfast but as the days turned out to be very long until close to midnight I prioritized sleep time over sport.
+At least we got good food during the conference so that part of the health was not destroyed either - a lot of fresh fruit and vegetables - we even got some high quality nuts and dates bars - spinach soup to boots the chlorophyl intake…
+Basically I can consider this week more like a rest week with only some high intensity on Monday during the HYROX class.
+# #4 Inside AI 🤖 {color="gray_bg"}
+## Markdown for the win 🎯
+During most of the session interaction with LLM’s - especially Microsoft Copilot - happend in markdown language. Either it was rules, readme files or other instructional input that was handed over to the chat. I asked myself - and later in the session also as a public question to the session - “does markdown have an advantage when interaction with AI?”.
+Thinking about it and also the answer from one of the speakers was basically yes. In short it is easy to read, supported a lot by all sorts of tools and it has quite no overhead (which is good for token reduction)
+So I will invest more time into noting down relevant things in markdown because it will be easier to use with AI. If you are not familiar with markdown here a cheat cheat - and if you want to read more details why markdown has advantages → hit the toggle and read on…
+<unknown url="https://app.notion.com/p/20bb04fbcf958008ae04eb5a65472d8b#213b04fbcf95803d9676ee0cf559d4d5" alt="bookmark"/>
+<empty-block/>
+<details>
+<summary>**Here is what **[**perplexity.ai**](http://perplexity.ai)** says about markdown advantages …**</summary>
+	Markdown offers significant advantages for interacting with chatbots and large language models (LLMs), but whether it is the "best" format depends on your specific needs and context.
+	## Advantages of Markdown for LLMs and Chatbots
+	- **Readability and Simplicity:** Markdown is easy for both humans and machines to read and write. Its straightforward syntax—using symbols for formatting like headers, lists, and bold text—reduces cognitive load for LLMs and makes prompts more transparent[1](https://developer.webex.com/blog/boosting-ai-performance-the-power-of-llm-friendly-content-in-markdown)[4](https://webcrawlerapi.com/blog/html-vs-markdown-choosing-the-right-output-format)[8](https://www.linkedin.com/pulse/why-markdown-suddenly-important-what-should-i-do-brian-marvin-xa6nc).
+	- **Token Efficiency:** Markdown typically uses fewer tokens than structured formats like XML or JSON, which means faster processing and lower costs when working with LLMs[5](https://www.linkedin.com/pulse/understanding-prompt-formats-xml-markdown-yaml-made-simple-paluy-fgtkc).
+	- **Natural Language Alignment:** Markdown closely resembles natural language, making it intuitive for LLMs to parse and respond to, especially for generative or conversational tasks[1](https://developer.webex.com/blog/boosting-ai-performance-the-power-of-llm-friendly-content-in-markdown)[5](https://www.linkedin.com/pulse/understanding-prompt-formats-xml-markdown-yaml-made-simple-paluy-fgtkc).
+	- **Flexibility:** Markdown can be easily converted to other formats (HTML, PDF, etc.), making it adaptable for various platforms and workflows[1](https://developer.webex.com/blog/boosting-ai-performance-the-power-of-llm-friendly-content-in-markdown)[4](https://webcrawlerapi.com/blog/html-vs-markdown-choosing-the-right-output-format).
+	- **Structured Output:** Modern LLMs are increasingly adept at generating well-structured Markdown output, improving readability and user experience in chatbot interfaces[7](https://arxiv.org/html/2501.15000v1).
+	## Limitations and Alternatives
+	- **Structure for Complex Data:** For prompts or responses requiring strict, nested, or highly structured data (such as deep hierarchies or programmatic parsing), XML or JSON may be preferable. XML, for example, can explicitly mark the start and end of sections, which helps LLMs with complex references and multi-part prompts[2](https://www.reddit.com/r/ChatGPT/comments/1gfgvhc/prompts_with_markdown_format_are_better/)[3](https://www.robertodiasduarte.com.br/en/markdown-vs-xml-em-prompts-para-llms-uma-analise-comparativa/).
+	- **Model and Task Dependence:** Some research shows that the performance of LLMs can vary based on prompt format. For instance, GPT-3.5 may perform best with JSON, while GPT-4 may do better with Markdown. Task complexity and the specific LLM in use play a role in which format is optimal[3](https://www.robertodiasduarte.com.br/en/markdown-vs-xml-em-prompts-para-llms-uma-analise-comparativa/).
+	- **Parsing Challenges:** While Markdown is easy for humans to read, automated parsing of LLM output in Markdown can be less reliable than with strictly structured formats like JSON or XML, especially if the output does not consistently follow a predictable schema[5](https://www.linkedin.com/pulse/understanding-prompt-formats-xml-markdown-yaml-made-simple-paluy-fgtkc).
+	## Summary Table
+	<table>
+<tr>
+<td>Format</td>
+<td>Readability</td>
+<td>Token Efficiency</td>
+<td>Structure for Complex Data</td>
+<td>Parsing Reliability</td>
+<td>Use Case Example</td>
+</tr>
+<tr>
+<td>Markdown</td>
+<td>High</td>
+<td>High</td>
+<td>Moderate</td>
+<td>Moderate</td>
+<td>Chatbots, documentation</td>
+</tr>
+<tr>
+<td>XML</td>
+<td>Moderate</td>
+<td>Low</td>
+<td>High</td>
+<td>High</td>
+<td>Nested, multi-part tasks</td>
+</tr>
+<tr>
+<td>JSON</td>
+<td>Moderate</td>
+<td>Moderate</td>
+<td>High</td>
+<td>High</td>
+<td>Data interchange, APIs</td>
+</tr>
+<tr>
+<td>YAML</td>
+<td>High</td>
+<td>High</td>
+<td>Moderate</td>
+<td>Moderate</td>
+<td>Configs, simple prompts</td>
+</tr>
+	</table>
+	## Conclusion
+	Markdown is highly effective and often preferred for chatbot and LLM interactions due to its simplicity, readability, and token efficiency. However, for complex, nested, or highly structured data, XML or JSON may be better. The best format ultimately depends on your task requirements, the LLM in use, and whether you need strict programmatic parsing or just human-readable output[3](https://www.robertodiasduarte.com.br/en/markdown-vs-xml-em-prompts-para-llms-uma-analise-comparativa/)[5](https://www.linkedin.com/pulse/understanding-prompt-formats-xml-markdown-yaml-made-simple-paluy-fgtkc)[7](https://arxiv.org/html/2501.15000v1).
+	1. [https://developer.webex.com/blog/boosting-ai-performance-the-power-of-llm-friendly-content-in-markdown](https://developer.webex.com/blog/boosting-ai-performance-the-power-of-llm-friendly-content-in-markdown)
+	2. [https://www.reddit.com/r/ChatGPT/comments/1gfgvhc/prompts_with_markdown_format_are_better/](https://www.reddit.com/r/ChatGPT/comments/1gfgvhc/prompts_with_markdown_format_are_better/)
+	3. [https://www.robertodiasduarte.com.br/en/markdown-vs-xml-em-prompts-para-llms-uma-analise-comparativa/](https://www.robertodiasduarte.com.br/en/markdown-vs-xml-em-prompts-para-llms-uma-analise-comparativa/)
+	4. [https://webcrawlerapi.com/blog/html-vs-markdown-choosing-the-right-output-format](https://webcrawlerapi.com/blog/html-vs-markdown-choosing-the-right-output-format)
+	5. [https://www.linkedin.com/pulse/understanding-prompt-formats-xml-markdown-yaml-made-simple-paluy-fgtkc](https://www.linkedin.com/pulse/understanding-prompt-formats-xml-markdown-yaml-made-simple-paluy-fgtkc)
+	6. [https://chatwith.tools/help/customization/how-to-use-markdown-with-your-chatbot](https://chatwith.tools/help/customization/how-to-use-markdown-with-your-chatbot)
+	7. [https://arxiv.org/html/2501.15000v1](https://arxiv.org/html/2501.15000v1)
+	8. [https://www.linkedin.com/pulse/why-markdown-suddenly-important-what-should-i-do-brian-marvin-xa6nc](https://www.linkedin.com/pulse/why-markdown-suddenly-important-what-should-i-do-brian-marvin-xa6nc)
+</details>
+# #5 Song of the week 🎶 {color="red_bg"}
+---
+Artist: "Panic! at the Disco", Song Title: "The Calendar"
+About the Artist:<br>Panic! at the Disco is an American rock band from Las Vegas, Nevada, formed in 2004. Known for their eclectic style that blends elements of pop, rock, and baroque pop, the band has evolved significantly over the years. Initially gaining fame with their debut album "A Fever You Can't Sweat Out," they have continued to captivate audiences with their dynamic sound and theatrical performances. The band is celebrated for their innovative approach to music and their ability to reinvent their style with each new release.
+Background of the Song:<br>"The Calendar" is a track from Panic! at the Disco's album "Vices & Virtues," released in 2011. The song is known for its emotional depth and intricate musical arrangement, capturing themes of reflection and the passage of time. It showcases the band's ability to blend poetic lyrics with a rich, layered sound, making it a standout track that resonates with listeners for its raw energy and emotional depth.
+Listen to the Song:
+<unknown url="https://app.notion.com/p/20bb04fbcf958008ae04eb5a65472d8b#214b04fbcf9580a98ebdd96113d5c479" alt="bookmark"/>
+My Personal Story with This Song:<br>I am listening to the automatically generated playlist "Daily Drive" which is offered by Spotify every day. This list combines short podcasts, announcements, news, and a bunch of music that fits my listening habits. Today I just scrolled down the list and chose one song that I hear quite often and which I like but where I do not know the band.
+---
+This should provide a comprehensive overview of the artist and the song, along with a personal touch to connect with your audience.
+# Feedback 📣 {color="purple_bg"}
+Here you can give me feedback, send ideas or just connect with me. Just leave a comment.
+<embed src="https://tally.so/embed/waKjo9?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1&week_hidden=2025w24"></embed>
+---
+<database url="https://app.notion.com/p/20bb04fbcf95807896abf8e5e5252e72" inline="true"></database>
+---
+©️ Christian Czupras - 2025

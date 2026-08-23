@@ -1,0 +1,61 @@
+---
+layout: default
+title: "2025w36 - Team Mode"
+---
+
+# #1 Personal ✒️ {color="green_bg"}
+## Personal Note
+![](https://prod-files-secure.s3.us-west-2.amazonaws.com/8ea9ff09-7c46-4257-8f8b-6dbe53d5cdb7/9fbbe051-ef9f-4360-b954-e2684a1c512d/Team_Rynkeby.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VYXNNR2J%2F20260823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260823T065536Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAYaCXVzLXdlc3QtMiJIMEYCIQD37zhPxz9Qs6jFqYXvGoIKsZQUKjTt8jj%2BEzyTxjPXQwIhAIt11IZkk4DrcXWOxX9TDCwEBslKIE%2BNKGDg0o6LcGxuKogECM%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNjM3NDIzMTgzODA1Igzv%2B4StuBnawBryDB4q3AMKDBrK9IySKKhQJ1yTPSs4FH7aGAbJvxnbIY6QzJJ5Q8tbIOymMhPwZLsYnRM3spGMlN264VA10C8Oj%2FFhTM6ojNJ4D%2FdWnid1yXrWbAQxm6eA3b7AJxF2rWZCRrrG8gu1UHzMQ6ry4lC%2BkjLVdGrpGwQOyZxRek4e4vE8t1u3E2XnHj0mQSukenq7IuEaRfWd4C2LYCrZrJjqCsduO2cd3cmLwMRxu63en0mCaIyOzQeXwQgQF5X4Z5a4DjQAqgQm%2Byj%2FSdDF%2Fo5Gx1VKQKlrofCwk9PcLL5khAbu9I5Ymhsy%2Br7ImBYou4ekbQY4%2FDZUudlTCg%2BORfrKR%2FEKCPYcg92%2Bm2%2F6JxH39g3mW4LdnB5ibV5b66MwIkO14HNV3Wtd%2BWp8p87Dkfcgu9bymFx4XlN%2BbdaDdqelk2ht8ww8UYp%2FippVEnPH2F5LkFrM6Ot8qN0aP4J%2FbTWIlwwDhFvd3gCBNuxFe6KiSXW7ObLlRoBIhfnGhlkfzG2JiFyiCO0t087l2K2pn468eG72Z1M6KHh1na8fhkoNpCQopuBWJYwPQcgwY2gYjYjHS%2BGjB5bXBXUw%2FCikJELO85JKmqkWBlNhG7fdTNpOK8I5PaXg3pxbIqacgRiGXCOjTTCOmarUBjqkAYqjATU7QiS4%2Bz%2FbwkD3BDAF1037WN9iz%2F8VSWtblpWGe8VEGV%2BJKsp3ucuEU5I%2B4wmebTq13p7JbdYHn1IMmbwefUDQin3UJTHRWFe1YyultpXcSGJ6hjgeGnXuebyorjPIv66Osb%2FH5EZjMfW29SpO7HnNCHkjeRsKZbOp8k0A2Xr4fWrqbKgYPy4Xl0C2VcgeOeaXLThL6cyw48msIJqjMtyz&X-Amz-Signature=87da32da367258241c0c2faaffd151ae3610b3fc5797d29165f146188ade8f12&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
+This week was quite exiting - a new personal project has started. I have applied to become a member of Team Rynkeby and was accepted.
+<unknown url="https://app.notion.com/p/265b04fbcf9581859425d0dbaab49c61#268b04fbcf9580bf9fb0ca180d6476d7" alt="bookmark"/>
+This combines my passion for sports and my ambition to do something good in this world. I am really exited about the team work and the training. It will open up a lot of different views for me because helping actively in a big fundraising project is quite new to me. I am helping a bit in the local animal shelter - like this week participating in a marathon relay race to the animal shelter team. Together with my wife we have also helped to fundraise and inform people about the animal shelter on several information stands.
+I will share more about this new personal experience and of course the training here in this blog.
+**Enjoy reading and don’t forget to leave some feedback.**
+# #2 Tech 💻 {color="blue_bg"}
+## Enhancing Workflow with Chat-Modes in Visual Studio Code
+Yes, well, writing a blog article is super easy today. I'm sitting here in the nature reserve, on the bench, at the beach and I'm currently writing, or I should rather say I'm currently dictating my article. So, what did I do this week or better last week to build the perfect workflow for further automation?
+### Custom Chat Modes in VS Code
+I recently explored how to enhance my workflow using **Chat Modes in Visual Studio Code**. Beyond the familiar Ask, Agent, and Edit Modes, it's possible to add custom modes, which is quite straightforward. By simply adding a Markdown file, such as `MyCustomMode.chatmode.md`, to the `.github/chatmodes` subdirectory in a GitHub repository, Visual Studio Code recognizes it as a new chat mode.
+<unknown url="https://app.notion.com/p/265b04fbcf9581859425d0dbaab49c61#268b04fbcf95805c92e8eaaa870fc419" alt="bookmark"/>
+These custom modes allow for setting header properties via front matter in the Markdown file and specifying the tools available to the agent. For instance, an agent can be granted access to only the repository or specific **MCP (Model Context Protocol) servers**. A best practice is to avoid including too many MCP servers or tools, as this can lead to excessive token usage, limiting the model's context and efficiency.
+### Specialized Agents for Focused Tasks
+To optimize for specific tasks, I can create dedicated chat modes. For example, to document a process flow, I can configure a chat mode to access the repository and a Business Central documentation MCP server. This combination enables efficient documentation. Within this custom mode, a detailed system prompt can be embedded to describe the agent's role, comparable to user stories and personas, allowing for highly tailored responses.
+This approach allows me to build specialized agents for various tasks and easily switch between contexts. I could create a specialist for **code reviews** or one for **writing complex code**, especially code that utilizes interfaces, by connecting them to relevant sources for purposeful action and output generation.
+I drew inspiration from **Jeremy Vyska's "nubimancy" project (**[Blog \| 🪄☁️The Nubimancy Project](https://nubimancy.com/blog/)**)**, where he built similar specialist templates, though he uses a different approach with Copilot Instructions. My attempt to keep the structure by only including the file to be fetched within the chat mode, unfortunately, did not lead to the desired outcome. Currently, I still need to completely fill the chat mode file with Markdown instructions. Despite this limitation, having distinct modes for coding versus documentation is very helpful for maintaining focus.
+### Automating Blog Creation with Notion and MCP
+This exploration leads me to consider whether an **MCP server can be connected to my Notion database** to automate blog article creation. Currently, I manually copy and paste my transcribed audio notes from Notion into a chatbot. As spoken transcripts are less fluid for reading, I use AI models to rephrase them, striving to maintain my original writing style based on my existing blog articles.
+The ideal scenario would involve using Visual Studio Code to fetch data directly from a Notion article via an MCP server and instructing a chatbot to write a blog post for a specific section. Optimally, the data would then be sent back directly to Notion, eliminating manual insertion and reformatting. While Notion AI could perform this directly in Notion, I prefer to limit the number of paid AI tools I utilize. And of course by using an MCP server I can also create my blog assistant chat mode and also freely chosse the LLM model I use. This represents a significant area for future workflow optimization.
+### Key Learnings and Future Steps
+This deep dive into Chat Modes and MCPs has identified several action points for further research. A critical learning is the importance of carefully managing the selection of MCP tools. Over-reliance on numerous tools can reduce the context available to the model, thereby limiting the quality and relevance of its output.
+**What are your thoughts on integrating these tools? I'd love to hear your insights and experiences in the comments!**
+# #3 Sports, Food & Health 🏋️🚴🥦 {color="orange_bg"}
+## Marathon Relay and Cycling Training
+This article as well was recorded during a break on one of my evening cycling routes. As you've read, I've joined **Team Rynkeby**, and now I need to log more kilometers on the bike to get accustomed to long-distance riding. Our goal is to cycle to Paris in eight days to raise awareness and donations for children's cancer aid. The route is approximately **1300 kilometers**, requiring an average of 160 kilometers per day. This distance is double my longest ride to date, meaning I'll need to spend significantly more time in the saddle. I'm not overly concerned about the route itself, and I don't anticipate strength or endurance being the main issue. My biggest challenge will be adapting to sitting on the saddle for such extended periods; this will be the most significant learning and adaptation for my body.
+### Running Performance & Marathon Relay 🏃
+Beyond cycling, I also have another sports update from a different team. I recently participated in the **Flensburg loves you Marathon relay** with Team Animal Shelter Flensburg. Our seven-person team collectively ran a full marathon, with each person covering a segment. My segment was **6.6 kilometers**, and I aimed to push hard on speed.
+I started off with great drive and a very high pace, feeling good. While I initially considered easing up, I focused on maintaining the effort. Around the 3-kilometer mark, I realized I could sustain that pace until the end, so I pushed through to finish strong. This was excellent training for my **HYROX double race**, which go off on October 3rd, and it reinforced that consistent running makes it easier.
+My goal was to run at a 5-minute pace, but I managed to finish at a nice speedy **4:44 per kilometer**. As a competitor, I found immense motivation in catching up with and overtaking other participants, which significantly boosted my performance.
+### Mindset, Goals & Balancing Life 🧠
+For any athletic challenge, I've learned that **setting achievable goals** is crucial. If you find yourself in good form, you can always aim to surpass that initial goal slightly to push your limits. It truly is a **matter of mindset**. Finding motivation—whether through **music, the landscape, competition**, or a good training partner—can significantly boost performance.
+I'm now getting back on my bike to continue the evening ride and plan to **increase my cycling frequency**. This includes incorporating bike commuting, where I'll take the train for part of the journey and cycle the rest. This approach helps me maximize training time after work without losing too much personal time. However, it's also important to remember that the day only has 24 hours, and other interests and **personal relationships shouldn't be neglected** in favor of training.
+**What is your current or next challenge? Are you in for riding some kilometers with me - just send me a message and we align a cycling date - I’m always eager to explore new routes. **
+# #4 Inside AI 🤖 {color="gray_bg"}
+ — no real learnigs this week that are worth sharing - still summer break 🌅 —
+Well actually - you should watch this video about Claude Code - very inspiring and this guy is just so likeable. I have not tried Claude Code on my own - but may be I should at some point:
+<unknown url="https://app.notion.com/p/265b04fbcf9581859425d0dbaab49c61#268b04fbcf9580ac9822c437bb88e9e1" alt="bookmark"/>
+# #5 Media of the week 🎶📺 {color="red_bg"}
+One of my go to lunch YouTube channels - so many positive vibes in his videos, always in good mood and really nice scenery:
+<unknown url="https://app.notion.com/p/265b04fbcf9581859425d0dbaab49c61#268b04fbcf95804b8de2e960d3ca9615" alt="bookmark"/>
+---
+The video that inspired me on the chat modes:
+<unknown url="https://app.notion.com/p/265b04fbcf9581859425d0dbaab49c61#268b04fbcf9580bda973d27ff7c26441" alt="bookmark"/>
+---
+And of course some music - very talented female singer - and also a really good song to cover:
+<unknown url="https://app.notion.com/p/265b04fbcf9581859425d0dbaab49c61#268b04fbcf958007a4aeeb3c7b4bb902" alt="bookmark"/>
+# Feedback 📣 {color="purple_bg"}
+Here you can give me feedback, send ideas or just connect with me. Just leave a comment.
+<embed src="https://tally.so/embed/waKjo9?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1&week_hidden=2025w36"></embed>
+---
+<database url="https://app.notion.com/p/265b04fbcf95815cb231d6066330fd19" inline="true"></database>
+---
+©️ Christian Czupras - 2025

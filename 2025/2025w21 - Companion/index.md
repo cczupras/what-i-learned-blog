@@ -1,0 +1,68 @@
+---
+layout: default
+title: "2025w21 - Companion"
+---
+
+# #1 Personal ✒️ {color="green_bg"}
+## Personal Note
+This morning when I created this page I did not know what to write about… Then after the first formatting actions and some sips of coffee the creativity and memory of the week crawled back into my mind. Creativity is a magical thing and with some help of a companion or a team mate it can rise to full potential. A memorable definition of creativity I have heard from Jeremy Utley, an adjunct professor of Creativity and AI at Stanford University when he was interviewed about AI. 
+It comes from a seventh grader: 
+> **"Creativity is doing more than the first thing you think of"**
+Hits it quite well I would say. And look down the page I managed to get some word on here - more than I thought some hours ago.
+**Enjoy reading and don’t forget to leave some feedback.**
+---
+## Another first work week after vacation
+I started this blog at the beginning of the year while I was on vacation. Content creation was easy because there was plenty of free time to write. Once I was back at work in week 3 I had a lot of ideas for content but less time to get it written down. Over time this evolved and with the help of tools and structure I am able to still write this blog every week. Long story short this week I came back from vacation too and I knew there was a lot of work piled up that need to be started.
+If you remember my blog from week 3 this year I have written about some practical tips how to not get drowned by emails and messages in the first week. If you have not read it go back and do, here is the link: <mention-page url="https://app.notion.com/p/17cb04fbcf95800c9d04db134e8ebc2e"/> 
+So I applied the same technique I wrote about and what can I say - it worked for me again. There is still a lot to start and catch up but it feels that I have the control over the workload and that is what counts.
+# #2 Tech 💻 {color="blue_bg"}
+## Finally the NotebookLM App
+I have been waiting for this! My number one research buddy NotebookLM just got a mobile app - so now you can use all the cool features on your mobile phone.
+There are 3 key features that really help:
+- **Listen to Audio Overviews offline:<br>**Once the audio overview is created (you can do it from the mobile as well) you will be able to listen to file offline. So you can walk around in nature without network connection and listen to the conversation about the topic you assembled. Really cool and an enormous time saver if you have many sources and want to get started digging into it.
+- **Interact with the hosts:<br>**To be hones I have not tried this feature yet, and I am not even sure if it is already available for German audio overviews yet.
+- **Share to NotebookLM from anywhere:<br>**This feature comes really handy - imagine you are on the go commuting and you are reading an article or watching a quick YouTube video, then there is an interesting section or piece of information in it that you need in your notebook as source. Easy - you just hit the share button on your mobile and select NotebookLM - it opens and you can select the specific notebook where you want to add the content as a link. It has never been easier to add sources.
+Read the full announcement from Google here:
+<unknown url="https://app.notion.com/p/1feb04fbcf9580638d02c673a568a378#1feb04fbcf95800da2bdc0dea6905183" alt="bookmark"/>
+<empty-block/>
+**I really recommend to try it- tell me what you think about it - and did you find any cool tricks?**
+# #3 Sports, Food & Health 🥦🚴🏋️ {color="orange_bg"}
+## Stick to the plan
+I made a plan to train like a Hybrid Athlete. Well the plan is not bad but time is its opponent. My fire to train harder and more is lit. So I have been running a bit more and also did some Intervalls as well as more strength training in the last two weeks. Not as much as I have written into the plan but I adopted it to my workweek and the time I had available. Key is not to stick the head into the sand but at least do a little bit of training if there is not enough time for a full training session.
+I attended only one class this week - fortunately it was the HYROX class - and the plan was to push a bit harder. Luckily I got a partner who was really good at running and he had a challenging running pace. I tried my best to keep up the speed in the 4 rounds of the workout and it really felt great - although it was really challenging. So I’m still not where I want to be with the training rhythm and plan but I guess that needs to build up slowly and not from one day to the other.
+Today I had planned a longer run but due to the weather - it is raining cats and dogs - I will adjust the plan to do some intervals on the air bike paired with some strength training.
+**I will stick to the plan to get stronger, faster, fitter - I am motivated - and now let’s go train.**
+P.S.: the CrossFit Games mobile app just got an update where you can bookmark the WOD (workout of the day) - might be handy if you need a quick workout in the open or home gym.
+### Key Learnings
+- it is good to have a plan to enhance your fitness
+- make adjustments and start slowly ramping up to it if it is new
+# #4 Inside AI 🤖 {color="gray_bg"}
+## Team Mate
+**Jeremy Utley**, an adjunct professor of Creativity and AI at Stanford University was interviewed on the topic of how AI could power up your creativity.
+He basically says you should not treat AI as a tool alone, you should treat it as a team mate - a companion. If you think about it, then it totally makes sense. AI can nowadays remember all of your conversation and give you answers on millions of words, texts and other data in an instant.
+Just think of your daily job where you need to do a task you have never done before but you know your experienced colleague know something about it. What do you naturally do? Yes - you go over to your colleagues desk and ask some questions. But you will not ask her for the exact solution because you know that she does not know it. You will have a dialog and both of you will have questions to one another.
+If you approach a chat bot - your virtual companion - in the same way then you will be amazed on how much better the answers are and how much better your results you are seeking for are.
+One simple first question could always be to ask the AI what information you need to provide in a prompt to get a good answer on a topic. It will tell you it needs - this will also introduce the AI (and chat memory) to the topic you are about to query. It sets the right **attention** to the model and will set a proper **context** if you do it properly.
+Here is the interview - I highly recommend to watch it:
+<unknown url="https://app.notion.com/p/1feb04fbcf9580638d02c673a568a378#1feb04fbcf958055a7a3ded8cdd02ca4" alt="bookmark"/>
+### Key Learnings 
+- set the right context in AI conversations
+- get the AI to ask **you** questions
+- treat AI as a companion not as a tool
+# #5 Song of the week 🎶 {color="red_bg"}
+###  "Let You Fade" by Linkin Park
+**About the Artist:**<br>Linkin Park is an American rock band from Agoura Hills, California. Known for their unique blend of rock, metal, and electronic music, Linkin Park gained international fame with their debut album "Hybrid Theory" and has continued to influence the rock genre with albums like "Meteora" and "Minutes to Midnight." The band is renowned for their powerful vocals, innovative sound, and emotionally charged lyrics. Despite the tragic loss of their lead vocalist Chester Bennington in 2017, Linkin Park has continued to create music and tour, maintaining a strong connection with their global fanbase.<br>Linkin Park reunited with a new lead singer, Emily Armstrong, in September 2024, marking their first major regrouping since the death of Chester. Armstrong, previously known as the frontwoman of Dead Sara, was officially introduced as the new vocalist during a live event in Los Angeles on September 5, 2024. This event was streamed live and featured the debut of their new single, "The Emptiness Machine," with Armstrong performing alongside Mike Shinoda<br>
+**Background of the Song:**<br>"Let You Fade" was released in 2025 and is part of the deluxe edition of the album "From Zero." The song reflects on themes of memory and loss, with lyrics that express a deep emotional connection and the struggle to hold onto fading memories. It is one of the new tracks added to the deluxe edition, showcasing the band's evolving sound and their ability to convey profound emotions through their music.
+**Listen to the Song:**
+<unknown url="https://app.notion.com/p/1feb04fbcf9580638d02c673a568a378#1feb04fbcf95809699dfeea99f879134" alt="bookmark"/>
+<empty-block/>
+**My Personal Story with This Song:**
+Linking Park is my favorite band of all times and I was really excited about the new album. Now they have launched it twice. In the deluxe addition they have added 3 new songs. “Let you fade” is one of them and it shows how the band in the new constellation grew together. With Emily and Collin as new members of the band there is new fresh sound here and there. Mike is stepping up more and more to the microphone and especially in this song he reveals his soft singing side. This song goes really deep to my heard, it has a easy sticking chorus and beautiful harmonies. Highly recommended to tune in and listen.
+**What do you think about the new band constellation and their already released songs?**
+# Feedback {color="purple_bg"}
+Here you can give me feedback, send ideas or just connect with me. Just leave a comment.
+<embed src="https://tally.so/embed/waKjo9?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1&week_hidden=2025w21"></embed>
+---
+<database url="https://app.notion.com/p/1feb04fbcf9580ab90bccc180a0c29e2" inline="true"></database>
+---
+©️ Christian Czupras - 2025
