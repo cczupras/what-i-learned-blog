@@ -70,6 +70,10 @@ function markdownToHtml(markdown) {
         .replace(/\r\n/g, '\n')
         .replace(/<empty-block\s*\/?>/gi, '');
 
+    raw = raw
+        .replace(/<mention-page\s+url="([^"]*)"(?!\s*\/>)[^>]*>([\s\S]*?)<\/mention-page>/gi, (match, url, text) => `<a href="${url}">${text}</a>`)
+        .replace(/<mention-page\s+url="[^"]*"[^>]*\/>/gi, '');
+
     // 2. Preprocess custom Notion structures with placeholders
     const placeholders = [];
     function addPlaceholder(html) {
@@ -351,6 +355,36 @@ function analyzePostContent(body) {
     return { topics: topics.length ? topics : ['General'], excerpt, words, readTimeMinutes };
 }
 
+function findNotionPageLinks(posts) {
+    const notionPages = new Map();
+
+    posts.forEach(post => {
+        const markdown = post.body.replace(/<database\b[^>]*>[\s\S]*?<\/database>/gi, '');
+        const counts = new Map();
+        for (const [, id] of markdown.matchAll(/https?:\/\/app\.notion\.com\/p\/([a-f0-9]+)/gi)) {
+            counts.set(id.toLowerCase(), (counts.get(id.toLowerCase()) || 0) + 1);
+        }
+
+        const [pageId] = [...counts].sort((a, b) => b[1] - a[1])[0] || [];
+        if (pageId) notionPages.set(pageId, post);
+    });
+
+    const weekThree = posts.find(post => post.year === '2025' && post.weekNum === 3);
+    if (weekThree) notionPages.set('17cb04fbcf95800c9d04db134e8ebc2e', weekThree);
+    notionPages.set('1a3b04fbcf95801190daf70ba7c6646d', { relativeUrl: 'index.html' });
+
+    return notionPages;
+}
+
+function localizeNotionLinks(markdown, sourcePost, notionPages) {
+    return markdown.replace(/https:\/\/app\.notion\.com\/p\/([a-f0-9]+)(?:#[a-f0-9]+)?/gi, (url, id) => {
+        const target = notionPages.get(id.toLowerCase());
+        if (!target) return url;
+
+        return path.posix.relative(path.posix.dirname(sourcePost.relativeUrl), target.relativeUrl);
+    });
+}
+
 // Generate the complete site
 function buildSite() {
     console.log('🚀 Starting "What I Learned" static blog build for GitHub Pages...');
@@ -425,13 +459,14 @@ function buildSite() {
     // Sort posts chronologically descending (newest first)
     allPosts.sort((a, b) => b.sortKey - a.sortKey);
     console.log(`📑 Found and parsed ${allPosts.length} posts.`);
+    const notionPages = findNotionPageLinks(allPosts);
 
     // 3. Render Individual Post Pages
     allPosts.forEach((post, index) => {
         const prevPost = index < allPosts.length - 1 ? allPosts[index + 1] : null;
         const nextPost = index > 0 ? allPosts[index - 1] : null;
 
-        const postHtmlContent = markdownToHtml(post.body);
+        const postHtmlContent = markdownToHtml(localizeNotionLinks(post.body, post, notionPages));
         const postDestDir = path.join(DOCS_DIR, post.year, post.folderName);
         ensureDir(postDestDir);
 
